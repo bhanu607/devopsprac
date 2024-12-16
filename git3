@@ -1,0 +1,11 @@
+soft commit : Here only commit will be deleted.
+Hard commit : Here both file data along commit will be deleted.
+Commands to delete commit due to error in file scenarios : 
+git reset --hard HEAD~1 : To delete first commit along with action file. 
+git reset --hard HEAD~3 : To delete top 3 commits along with action file.
+git reset --soft HEAD~1 : To delete only commit.
+git update-ref -d HEAD :  To delete all the commits.
+git reflog :  It will show deleted commit details history files.
+git cherry-pick commit_id : It will restore the deleted commit .
+git cherry-pick commit_id commit_id2 commit_id3 : It will restore the multiple deleted commits.
+
