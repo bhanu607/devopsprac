@@ -1,0 +1,9 @@
+git branch branch name : used to create new branch name. 
+git checkout branch name : it is used to switch from one branch to other.
+Here whenever you are creating branches from master those 3 commits are able to see in b1 branch and if you create 2 commits in branch 1 you can able to see 5 commits in next branch 2suppose if you create branch 3 from master then you can able to see 3 commits in branch 3.
+git merge branch name : used to merge the files from one branch to another branch.
+git cherry-pick commit_id, commit_id2, : used to copy the commits from master to other branch.
+ex : if you want copy files to other branch from master then you need to be in other branch.
+git checkout -b branch_name :  it is used to create branch name and switched to a new branch.
+git merge --abort :  if don’t want happen the merge conflict we use this command.
+
